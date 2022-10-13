@@ -1,0 +1,64 @@
+
+#operacao{
+    color: #65687C;
+    display: block;
+}
+
+#linha_fechada{
+    display: flex;
+    justify-content: center;
+    color: #D44D4F;
+    padding-bottom: 20px;
+}
+
+.informacoes_ccit{
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    background-color: #E0DFE2;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+    text-align: center;
+    display:grid;
+    justify-content: center;   
+}
+
+.especificacao{
+    padding-left: 5px;
+    display: inline;
+    white-space:nowrap;
+   
+
+}
+
+.apresente_cartao{
+color: #65687C;
+text-align: center;
+}
+
+.apresente_cartao span{
+    display: block;
+}
+
+.apresente_cartao span:nth-last-child(2){
+    padding-bottom: 50px;
+    }
+
+.decoracoes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decoracoes img{
+  
+}
+
+.teste{
+    background-color: red;
+    
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
