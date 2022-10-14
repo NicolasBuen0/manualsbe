@@ -44,10 +44,21 @@ a {
 
 .btn{
     position: relative;
-    background-color: #3A3C48;
+    background-color: #65687C;
     color: var(--cor-0);
     padding: 15px 60px;
     z-index: 1;
     font: 400 1.5rem/1.25 "Roboto", sans-serif;
     border: none;
+    border-radius: 10px;
+}
+
+.btn-grid{
+display: grid;
+}
+
+
+
+#abertura .btn-grid{
+    padding-top: 50px;
 }
