@@ -1,63 +1,65 @@
-
-#operacao{
+#operacao {
     color: #65687C;
     display: block;
 }
 
-#linha_fechada{
+#linha_fechada {
     display: flex;
     justify-content: center;
     color: #D44D4F;
     padding-bottom: 20px;
 }
 
-.informacoes_ccit{
+.informacoes_ccit {
     padding: 10px 60px;
     margin-bottom: 20px;
     background-color: #E0DFE2;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 200px;
     text-align: center;
-    display:grid;
-    justify-content: center;   
+    display: grid;
+    justify-content: center;
 }
 
-.especificacao{
+.especificacao {
     padding-left: 5px;
     display: inline;
-    white-space:nowrap;
-   
+    white-space: nowrap;
+
 
 }
 
-.apresente_cartao{
-color: #65687C;
-text-align: center;
+.apresente_cartao {
+    color: #65687C;
+    text-align: center;
 }
 
-.apresente_cartao.off{
+.apresente_cartao.off {
     display: none;
 }
 
-.apresente_cartao span{
+.apresente_cartao span {
     display: block;
 }
 
-.apresente_cartao span:nth-last-child(2){
+.apresente_cartao span:nth-last-child(2) {
     padding-bottom: 50px;
-    }
 
-.decoracoes{
+}
+
+.decoracoes {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
-.passos{
+#home .passos {
     opacity: 0;
+    display: none;
 }
 
-.passos.ativo{
+#home .passos.ativo {
     opacity: 1;
     transition: transform 0.8s, opacity 2s;
     display: block;
@@ -68,22 +70,56 @@ text-align: center;
 }
 
 .passos p {
-    
     padding: 25px;
-    
+
+
 }
 
-.btn-container{
+#home .btn-container {
     opacity: 0;
+    display: none;
+
 }
 
-.btn-container.ativo {
+#home .btn-container.ativo {
     opacity: 1;
     transition: transform 0.8s, opacity 2s;
-   display: flex;
-   justify-content: center;
-   position: relative;
-   z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
 
 }
 
+
+#abertura .passos {
+    opacity: 1;
+    display: block;
+    color: var(--cor-0);
+    text-align: start;
+    background-color: #1f1f1fd5;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#abertura {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#abertura .btn-cancelar {
+    position: absolute;
+    bottom: 30px;
+
+}
+
+
+#selecionar .btn {
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+
+}
