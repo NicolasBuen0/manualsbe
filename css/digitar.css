@@ -1,0 +1,80 @@
+
+
+.container-grid{
+ padding: 0;
+ position: absolute;
+ bottom: 0;
+left: 0;
+right: 0;
+}
+
+.pesquisa{
+    display: grid;
+    padding-top: 50px;
+    height: 100px;
+    padding-bottom: 100px;
+
+}
+
+.pesquisa span{
+    color: #65687C;
+   }
+
+.campo{
+    border: solid 1px #C58337;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    padding-left: 2px;
+    align-items: center;
+}
+
+ .linhas{
+     background-color: #65687C;
+     height: 40px; 
+     align-items: center;
+     padding-left: 20px;  
+     color: white;
+     border-bottom: solid 0.8px white;
+     display: none;
+    }
+    
+    .grid{
+    display: grid;
+    text-align: center;
+    gap: 4px;
+    grid-template-columns:repeat(5, 1fr);
+    background-color: #2C2F35;
+
+   
+}
+
+.grid span{
+    padding: 15px;
+    margin-top: 4px;
+    color: white;
+    background-color: #525567;
+    
+}
+
+.grid-4 span{
+    grid-column: 2;
+}
+
+#digitar .btn-cancelar{
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  z-index: 1;
+  position: absolute;
+  bottom: 260px;
+  left: 0;
+  right: 0;
+}
+
+#digitar .btn{
+    padding: 15px 40px;
+    font: 400 1.5rem/1.25 "Roboto", sans-serif;
+  }
+
+
