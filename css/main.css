@@ -70,13 +70,14 @@
 }
 
 .passos p {
-    padding: 25px;
-
+    padding: 10px;
 }
 
 #home .btn-container {
     opacity: 0;
     display: none;
+   
+    
 
 }
 
@@ -87,6 +88,7 @@
     justify-content: center;
     position: relative;
     z-index: 1;
+    padding-top: 80px;
 
 }
 
@@ -97,8 +99,12 @@
     color: var(--cor-0);
     text-align: start;
     background-color: #1f1f1fd5;
-    margin-bottom: 10px;
-    margin-top: 50px;
+ 
+  
+}
+
+.scroll-of{
+    overflow: hidden;
 }
 
 #abertura {
@@ -106,14 +112,16 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: calc(100vh - 98px);
 }
 
 
 #abertura .btn-cancelar {
-    position: absolute;
-    bottom: 30px;
-
+padding-bottom: 50px;
 }
+
+
+
 
 
 #selecionar .btn {

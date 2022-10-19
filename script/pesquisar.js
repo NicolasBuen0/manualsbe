@@ -12,6 +12,7 @@ function digitaCampo(event){
         linhas.style.display="flex";
     }
    
+    console.log()
 }
 
 teclas.forEach((item)=>{

@@ -6,6 +6,7 @@
  bottom: 0;
 left: 0;
 right: 0;
+
 }
 
 .pesquisa{
@@ -67,7 +68,7 @@ right: 0;
   gap: 10px;
   z-index: 1;
   position: absolute;
-  bottom: 260px;
+  bottom: 200px;
   left: 0;
   right: 0;
 }
@@ -78,3 +79,20 @@ right: 0;
   }
 
 
+#digitar #abertura{
+    height: 0;
+}
+
+
+#digitar .passos {
+    margin-top: 200px;
+}
+
+
+@media (min-width: 1200px) {
+    #digitar .btn-cancelar{
+        bottom: 240px;
+   
+      }
+      
+}
